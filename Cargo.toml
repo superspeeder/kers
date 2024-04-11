@@ -1,0 +1,14 @@
+[workspace]
+members = ["game"]
+
+[package]
+name = "kers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ash = "0.38.0"
+winit = "0.29.15"
+log = "0.4.21"
+anyhow = "1.0.82"
+thiserror = "1.0.58"

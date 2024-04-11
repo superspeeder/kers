@@ -1,0 +1,11 @@
+[package]
+name = "game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kers = { path = ".." }
+env_logger = "0.10.2"
+log = "0.4.21"
+anyhow = "1.0.82"
+thiserror = "1.0.58"
